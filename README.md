@@ -16,8 +16,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./Desktop-design.jpg)
-![](./Mobile-design.png)
+![alt text](./Desktop-design.jpg)
+![alt text](./Mobile-design.png)
 
 
 ### Links
