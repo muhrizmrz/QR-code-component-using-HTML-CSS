@@ -12,6 +12,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
   </style>
+  <link rel="stylesheet" href="index.css"></link>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -37,15 +38,15 @@
 <body>
 
 <div class="bg-lightGray flex w-full h-screen">
-  <div class="w-5/6 h-fit flex flex-col m-auto bg-white rounded-2xl md:w-3/12">
-    <div class="m-4 rounded-2xl ">
-      <img src="./images/image-qr-code.png" class="w-full rounded-2xl" />
-    </div>
-    <div class="px-10 pb-10 pt-8 font-outfit space-y-4 m-auto text-center">
-      <h4 class="text-darkBlue font-bold text-2xl"><b>Improve your front-end skills by building projects</b></h4>
+  <main class="w-7/12 h-fit flex flex-col m-auto bg-white rounded-2xl md:w-3/12">
+    <section class="m-4 rounded-2xl md:h-7/12">
+      <img src="./images/image-qr-code.png" alt="QR code" class="w-full rounded-2xl" />
+    </section>
+    <section class="px-10 pb-10 pt-8 font-outfit space-y-2 m-auto text-center md:px-8 md:pb-6 md:pt-4">
+      <h1 class="text-darkBlue font-bold text-2xl"><b>Improve your front-end skills by building projects</b></h1>
       <p class="text-grayishBlue">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    </div>
-  </div>
+    </section>
+  </main>
 </div>
 
 </body>
